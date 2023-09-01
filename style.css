@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    gap: 2px;
+}
+
+.circle {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%; /* 使元素呈现为圆形 */
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #e74c3c;
+}
