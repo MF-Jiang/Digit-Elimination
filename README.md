@@ -4,6 +4,9 @@
 A small game Demo imitating Fruit Box
 
 ### Fruit Box: https://en.gamesaien.com/game/fruit_box/
+![Fruit](https://en.gamesaien.com/game/fruit_box/zu01.png)
+
+### Digit Elimination
 
 This is an H5 mini game Demo modeled after Fruit Box.
 ![Temp](Temp.jpg)
